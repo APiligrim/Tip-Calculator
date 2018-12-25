@@ -11,9 +11,13 @@
 		EF02061121D02F7000BE94DB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF02061021D02F7000BE94DB /* ViewController.swift */; };
 		EF02061421D02F7000BE94DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF02061221D02F7000BE94DB /* Main.storyboard */; };
 		EF02061621D02F7200BE94DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF02061521D02F7200BE94DB /* Assets.xcassets */; };
-		EF02061921D02F7200BE94DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF02061721D02F7200BE94DB /* LaunchScreen.storyboard */; };
 		EF02062421D02F7200BE94DB /* FinalCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF02062321D02F7200BE94DB /* FinalCalculatorTests.swift */; };
 		EF02062F21D02F7200BE94DB /* FinalCalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF02062E21D02F7200BE94DB /* FinalCalculatorUITests.swift */; };
+		EF02064321D0B12000BE94DB /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF02064221D0B12000BE94DB /* SettingsViewController.swift */; };
+		EF02064421D0B12000BE94DB /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF02064221D0B12000BE94DB /* SettingsViewController.swift */; };
+		EF02064521D0B12000BE94DB /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF02064221D0B12000BE94DB /* SettingsViewController.swift */; };
+		EF02064921D0B1C600BE94DB /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF02064821D0B1C500BE94DB /* SettingsViewController.swift */; };
+		EF6A1CC321D1F4B4007CA8CC /* Tipping-fullpageCOVER (1).jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF6A1CC221D1F4B4007CA8CC /* Tipping-fullpageCOVER (1).jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +43,6 @@
 		EF02061021D02F7000BE94DB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		EF02061321D02F7000BE94DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EF02061521D02F7200BE94DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		EF02061821D02F7200BE94DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EF02061A21D02F7200BE94DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EF02061F21D02F7200BE94DB /* FinalCalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FinalCalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF02062321D02F7200BE94DB /* FinalCalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalCalculatorTests.swift; sourceTree = "<group>"; };
@@ -47,6 +50,9 @@
 		EF02062A21D02F7200BE94DB /* FinalCalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FinalCalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF02062E21D02F7200BE94DB /* FinalCalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalCalculatorUITests.swift; sourceTree = "<group>"; };
 		EF02063021D02F7200BE94DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF02064221D0B12000BE94DB /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SettingsViewController.swift; path = ../SettingsViewController.swift; sourceTree = "<group>"; };
+		EF02064821D0B1C500BE94DB /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SettingsViewController.swift; path = ../../SettingsViewController.swift; sourceTree = "<group>"; };
+		EF6A1CC221D1F4B4007CA8CC /* Tipping-fullpageCOVER (1).jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Tipping-fullpageCOVER (1).jpg"; path = "FinalCalculator/Tipping-fullpageCOVER (1).jpg"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +83,7 @@
 		EF02060221D02F7000BE94DB = {
 			isa = PBXGroup;
 			children = (
+				EF02064221D0B12000BE94DB /* SettingsViewController.swift */,
 				EF02060D21D02F7000BE94DB /* FinalCalculator */,
 				EF02062221D02F7200BE94DB /* FinalCalculatorTests */,
 				EF02062D21D02F7200BE94DB /* FinalCalculatorUITests */,
@@ -98,10 +105,11 @@
 			isa = PBXGroup;
 			children = (
 				EF02060E21D02F7000BE94DB /* AppDelegate.swift */,
+				EF02064821D0B1C500BE94DB /* SettingsViewController.swift */,
 				EF02061021D02F7000BE94DB /* ViewController.swift */,
 				EF02061221D02F7000BE94DB /* Main.storyboard */,
+				EF6A1CC221D1F4B4007CA8CC /* Tipping-fullpageCOVER (1).jpg */,
 				EF02061521D02F7200BE94DB /* Assets.xcassets */,
-				EF02061721D02F7200BE94DB /* LaunchScreen.storyboard */,
 				EF02061A21D02F7200BE94DB /* Info.plist */,
 			);
 			path = FinalCalculator;
@@ -229,9 +237,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF02061921D02F7200BE94DB /* LaunchScreen.storyboard in Resources */,
 				EF02061621D02F7200BE94DB /* Assets.xcassets in Resources */,
 				EF02061421D02F7000BE94DB /* Main.storyboard in Resources */,
+				EF6A1CC321D1F4B4007CA8CC /* Tipping-fullpageCOVER (1).jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +266,8 @@
 			files = (
 				EF02061121D02F7000BE94DB /* ViewController.swift in Sources */,
 				EF02060F21D02F7000BE94DB /* AppDelegate.swift in Sources */,
+				EF02064321D0B12000BE94DB /* SettingsViewController.swift in Sources */,
+				EF02064921D0B1C600BE94DB /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,6 +276,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF02062421D02F7200BE94DB /* FinalCalculatorTests.swift in Sources */,
+				EF02064421D0B12000BE94DB /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +285,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF02062F21D02F7200BE94DB /* FinalCalculatorUITests.swift in Sources */,
+				EF02064521D0B12000BE94DB /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,14 +311,6 @@
 				EF02061321D02F7000BE94DB /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		EF02061721D02F7200BE94DB /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EF02061821D02F7200BE94DB /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
